@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    font-family: 'bangers';
+    color: red;
+    font-size: 18px;
+}
+
+.div1 {
+    background-image: url('TOOLS-HEADER-DARK.jpg');
+    width: 100%;
+    height: 125px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.text1 ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    list-style: none;
+    float: left;
+    line-height: 100px;
+}
+
+.text1 ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: arial;
+    padding: 0 20px;
+    font-family: 'Bangers';
+}
+
+.text1 ul li a:hover {
+    color: red
+}
+
+.jardin {
+    background-image: url('BACKGROUND-gardening.jpeg');
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet {
+    background-image: url('133500-top-dog-backgrounds-1920x1200-for-4k.jpg');
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool {
+    background-image: url('917-uLSKj1CfWT4HtsbyxTu3.jpg');
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pipe {
+    background-image: url('iStock_000072297603_Small.jpg');
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auto {
+    background-image: url('linternas-coche-moderno-rojo-sobre-fondo-negro_67340-169.jpg');
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jardin .title h1 {
+    font-family: 'bangers';
+    text-align: center;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.pet .title h1 {
+    font-family: 'bangers';
+    text-align: center;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.tool .title h1 {
+    font-family: 'bangers';
+    text-align: center;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.pipe .title h1 {
+    font-family: 'bangers';
+    text-align: center;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.auto .title h1 {
+    font-family: 'bangers';
+    text-align: center;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    align-content: center;
+    width: 210px;
+    top: 50px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer2 {
+    width: 100%;
+    height: 60px;
+    background: yellow;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'bangers';
+}

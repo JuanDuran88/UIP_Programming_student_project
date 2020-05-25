@@ -1,0 +1,127 @@
+body {
+    height: 1000px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    font-family: 'bangers';
+    color: red;
+    font-size: 18px;
+}
+
+.div1 {
+    background-image: url('TOOLS-HEADER-DARK.jpg');
+    width: 100%;
+    height: 125px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+}
+
+.caja {
+    background-image: url('tools-background.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: relative;
+    display: flex;*/
+    text-align: center;
+    color: black;
+}
+
+.caja .text {
+    position: fixed;
+    top: 35%;
+    left: 37%;
+    font-family: 'bangers';
+    font-size: 24px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.text1 ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    list-style: none;
+    float: left;
+    line-height: 100px;
+}
+
+.text1 ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: arial;
+    padding: 0 20px;
+    font-family: 'Bangers';
+}
+
+.text1 ul li a:hover {
+    color: red
+}
+
+.footer {
+    width: 100%;
+    background-image: url(siam-discovery-modern-department-store-footage-084958835_prevstill.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    align-content: center;
+    width: 220px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer2 {
+    width: 100%;
+    height: 60px;
+    background: yellow;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'bangers';
+}
